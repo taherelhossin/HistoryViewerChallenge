@@ -30,3 +30,10 @@ Also this app has build to be extendable, so you can add your data provider or a
 # Tests
 
 Tests in this Solution focuse primary to provide a POC that the code is easily testable more than testing the extreme corner cases
+
+# Future improvments
+
+One of the improvements I think if added will give this app more extensibility which is extracting the actions **beautifier** to be **injectable** rather than tide to the manager, In this case, we will be able to support different scenarios like Multi-lingual, other date formats & more fancy properties and ideas.
+
+This refactoring will lead the  **beautifier** itself to be Testable, so it will not be tested inside the manager but will be testable isolatted 
+
