@@ -14,9 +14,9 @@ namespace ChatHistoryLib.Contracts
         void Connect(string connectionString = "");
 
         /// <summary>
-        /// 
+        /// Retrieve all data as querable 
         /// </summary>
-        /// <returns></returns>
+        /// <returns>History data</returns>
         IQueryable<HistoryItem> RetrieveData();
 
         /// <summary>

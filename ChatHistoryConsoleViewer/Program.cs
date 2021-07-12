@@ -7,12 +7,12 @@ using ConsoleTools;
 
 namespace ChatHistoryViewer
 {
-    class Program
+    static class Program
     {
         static void Main(string[] args)
         {
             // program will act as DI container
-            Console.WriteLine(Figgle.FiggleFonts.Slant.Render("\tEnjoy Viewing"));
+            Console.WriteLine(Figgle.FiggleFonts.Slant.Render("\nHistory Viewer"));
 
             IHistoryDataProvider dataProvider = new InMemoryHistoryDataProvider();
             IHistoryDataManager dataManager = new HistoryDataStatefulManager(dataProvider);
@@ -20,7 +20,10 @@ namespace ChatHistoryViewer
 
             try
             {
-                Console.WriteLine("Note: this Demo show three days back History only");
+                Console.WriteLine("\n\n\nNote: this Demo show three days back History only, just to be human testable\n\n\n");
+                Console.WriteLine("Please press any key to open the menu, use arrow keys up/down to navigate");
+                Console.ReadKey();
+                        
                 int selectedBackDaysCount = 0;
                 
                 
