@@ -7,7 +7,7 @@ Also this app has build to be extendable, so you can add your data provider or a
 	 
 
  - This app is not fancy in the client layer, it's main purpose just to
-   desplay data.
+   display data humanly.
 
 	 
 	
