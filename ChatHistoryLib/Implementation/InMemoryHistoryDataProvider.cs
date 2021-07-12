@@ -32,9 +32,9 @@ namespace ChatHistoryLib.Implementation
                 new HistoryItem
                     {FromUserName = "John", Type = ActionType.EnterRoom, TimeStamp = startPoint},
                 new HistoryItem
-                    {FromUserName = "Taher",  Type = ActionType.Comment, TimeStamp = startPoint.Subtract(TimeSpan.FromHours(6))},
+                    {FromUserName = "Taher",  Type = ActionType.Comment, Message = "Any body hear", TimeStamp = startPoint.Subtract(TimeSpan.FromHours(6))},
                 new HistoryItem
-                    {FromUserName = "Taher", ToUserName = "John", Type = ActionType.Comment, TimeStamp = startPoint.Subtract(TimeSpan.FromMinutes(5))},
+                    {FromUserName = "Taher", Message = "i'm heeeere", Type = ActionType.Comment, TimeStamp = startPoint.Subtract(TimeSpan.FromMinutes(5))},
                 new HistoryItem
                     {FromUserName = "Mohamed", ToUserName = "John", Type = ActionType.HighFive, TimeStamp = startPoint.Subtract(TimeSpan.FromHours(28))},
                 new HistoryItem
@@ -42,15 +42,15 @@ namespace ChatHistoryLib.Implementation
                 new HistoryItem
                     {FromUserName = "Taher" , ToUserName = "Nada", Type = ActionType.HighFive, TimeStamp = startPoint.Subtract(TimeSpan.FromMinutes(92))},
                 new HistoryItem
-                    {FromUserName = "Taher", ToUserName = "Taher", Type = ActionType.Comment, TimeStamp = startPoint.Subtract(TimeSpan.FromHours(5))},
+                    {FromUserName = "Taher", Message = "Hi All", Type = ActionType.Comment, TimeStamp = startPoint.Subtract(TimeSpan.FromHours(5))},
                 new HistoryItem
                     {FromUserName = "Nada", ToUserName = "John", Type = ActionType.HighFive, TimeStamp = startPoint.Subtract(TimeSpan.FromMinutes(280))},
                 new HistoryItem
-                    {FromUserName = "Mohamed",  Type = ActionType.Comment, TimeStamp = startPoint.Subtract(TimeSpan.FromHours(12))},
+                    {FromUserName = "Mohamed",  Type = ActionType.Comment, Message = "I will go now", TimeStamp = startPoint.Subtract(TimeSpan.FromHours(12))},
                 new HistoryItem
-                    {FromUserName = "Mohamed", Type = ActionType.Comment, TimeStamp = startPoint.Subtract(TimeSpan.FromMinutes(22))},
+                    {FromUserName = "Mohamed", Type = ActionType.Comment, Message = "Nada are you still here", TimeStamp = startPoint.Subtract(TimeSpan.FromMinutes(22))},
                 new HistoryItem
-                    {FromUserName = "Mohamed", Type = ActionType.Comment, TimeStamp = startPoint.Subtract(TimeSpan.FromHours(1))},
+                    {FromUserName = "Mohamed", Type = ActionType.LeaveRoom, TimeStamp = startPoint.Subtract(TimeSpan.FromHours(1))},
                 new HistoryItem
                     {FromUserName = "John", Type = ActionType.LeaveRoom, TimeStamp = startPoint},
                 new HistoryItem
@@ -58,7 +58,7 @@ namespace ChatHistoryLib.Implementation
                 new HistoryItem
                     {FromUserName = "Taher", ToUserName = "Nada", Type = ActionType.HighFive, TimeStamp = startPoint.Subtract(TimeSpan.FromHours(1))},
                 new HistoryItem
-                    {FromUserName = "Wesa", ToUserName = "John", Type = ActionType.Comment, TimeStamp = startPoint.Subtract(TimeSpan.FromMinutes(300))},
+                    {FromUserName = "Wesa", Type = ActionType.Comment, Message = "End of the chat man", TimeStamp = startPoint.Subtract(TimeSpan.FromMinutes(300))},
 
             };
         }

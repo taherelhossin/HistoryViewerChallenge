@@ -62,7 +62,7 @@ namespace ChatHistoryLib.Implementation
                             resultsList.Add($"{item.FromUserName} leaves");
                             break;
                         case ActionType.Comment:
-                            resultsList.Add($"{item.FromUserName} comments {item.Message}");
+                            resultsList.Add($"{item.FromUserName} comments: {item.Message}");
                             break;
                         case ActionType.HighFive:
                             resultsList.Add($"{item.FromUserName} high-fives to {item.ToUserName}");
