@@ -12,5 +12,7 @@ namespace ChatHistoryLib
         public DateTime TimeStamp { get; set; }
         
         public ActionType Type { get; set; }
+        
+        public string Message { get; set; }
     }
 }

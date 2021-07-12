@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.810.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatHistoryViewer", "ChatHistoryViewer\ChatHistoryViewer.csproj", "{A3EB2310-7491-4CFC-8D9F-BE2807B69A6D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatHistoryConsoleViewer", "ChatHistoryConsoleViewer\ChatHistoryConsoleViewer.csproj", "{A3EB2310-7491-4CFC-8D9F-BE2807B69A6D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{518F472F-720B-4B8F-8263-ADEF5AD8B95D}"
 EndProject
