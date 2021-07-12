@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.810.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatHistoryConsoleViewer", "ChatHistoryConsoleViewer\ChatHistoryConsoleViewer.csproj", "{A3EB2310-7491-4CFC-8D9F-BE2807B69A6D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{518F472F-720B-4B8F-8263-ADEF5AD8B95D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatHistoryLib", "ChatHistoryLib\ChatHistoryLib.csproj", "{D0E4C130-C227-4AD8-B3B9-1EF51E06FFED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatHistoryTests", "ChatHistoryTests\ChatHistoryTests.csproj", "{C5D5544A-6329-4674-8E73-43F3E2E72B26}"
